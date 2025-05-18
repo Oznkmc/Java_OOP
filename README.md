@@ -66,3 +66,17 @@ In the `main` method:
   - Then prints electronics-specific info.
 
 This demonstrates how subclass objects can contain both **inherited** and **specialized** behaviors.
+
+## 🔁 Polymorphism
+
+Polymorphism is a core principle of object-oriented programming that allows objects of different classes to be treated through a common interface. It enables methods to behave differently based on the actual object's class that invokes them, promoting flexibility and extensibility in software design.
+
+This dynamic method dispatch supports writing more maintainable and scalable code by allowing new object types to be integrated with minimal changes to existing codebases. Polymorphism also facilitates adherence to key design principles such as the Open/Closed Principle, making systems easier to extend without modifying existing code.
+
+> ✅ **Key Benefits**
+> - Enables method overriding to tailor behavior in subclasses  
+> - Supports runtime determination of the appropriate method to invoke  
+> - Enhances code flexibility, maintainability, and scalability  
+> - Promotes loose coupling and easier code extension
+
+
