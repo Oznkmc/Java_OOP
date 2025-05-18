@@ -79,7 +79,7 @@ This dynamic method dispatch supports writing more maintainable and scalable cod
 > - Enhances code flexibility, maintainability, and scalability  
 > - Promotes loose coupling and easier code extension
 
-## 💳 Payment Method Interface Example
+## 💳 Interface
 
 This example shows how to use an **interface** to define a common contract for different payment methods.
 
