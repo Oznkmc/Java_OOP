@@ -66,3 +66,36 @@ In the `main` method:
   - Then prints electronics-specific info.
 
 This demonstrates how subclass objects can contain both **inherited** and **specialized** behaviors.
+
+## 🔁 Polymorphism
+
+Polymorphism is a core principle of object-oriented programming that allows objects of different classes to be treated through a common interface. It enables methods to behave differently based on the actual object's class that invokes them, promoting flexibility and extensibility in software design.
+
+This dynamic method dispatch supports writing more maintainable and scalable code by allowing new object types to be integrated with minimal changes to existing codebases. Polymorphism also facilitates adherence to key design principles such as the Open/Closed Principle, making systems easier to extend without modifying existing code.
+
+> ✅ **Key Benefits**
+> - Enables method overriding to tailor behavior in subclasses  
+> - Supports runtime determination of the appropriate method to invoke  
+> - Enhances code flexibility, maintainability, and scalability  
+> - Promotes loose coupling and easier code extension
+
+## 💳 Interface
+
+This example shows how to use an **interface** to define a common contract for different payment methods.
+
+### Interface: `PaymentMethod`
+- Declares two methods: `pay(double amount)` and `refund(double amount)`
+- Specifies *what* operations a payment method must support, but not *how*
+
+### Implementations:
+- **CreditCardPayment**: Implements payment and refund via credit card
+- **PayPalPayment**: Implements payment and refund via PayPal account
+
+### Why use interfaces here?
+- **Abstraction:** Hide implementation details behind a common interface  
+- **Flexibility:** Easily add new payment methods without changing existing code  
+- **Polymorphism:** Treat different payment types uniformly through the same interface
+
+This design promotes clean, scalable, and maintainable code.
+
+
