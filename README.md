@@ -35,7 +35,7 @@ Constructors ensure that an object starts its life in a valid and predictable st
 
 Constructors are essential for setting up an object properly from the moment it is instantiated. If no constructor is explicitly defined, many languages provide a default constructor automatically.
 
-## 🧬 Inheritance (Kalıtım)
+## 🧬 Inheritance
 
 Inheritance is a fundamental concept in object-oriented programming (OOP) that allows one class (child/subclass) to inherit properties and behaviors from another class (parent/superclass). This promotes **code reuse**, **modularity**, and a **hierarchical class structure**.
 
