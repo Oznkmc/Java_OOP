@@ -16,3 +16,22 @@ In OOP, real-world entities are modeled as **objects**. For example, a **phone**
 - **Object**: An instance of a class with actual data and behavior.
 
 This structure allows software to be more **modular**, **readable**, and **reusable**, making it easier to develop and maintain complex applications.
+
+## 🔧 Constructor
+
+A **constructor** is a special method that is automatically executed when a new object is created from a class. Its primary role is to initialize the object's properties with initial values, either default or user-provided.
+
+Constructors ensure that an object starts its life in a valid and predictable state. They are defined differently depending on the programming language, but their core purpose remains the same.
+
+### 🛠️ Key Characteristics
+
+- Invoked automatically upon object creation.
+- Used to assign values to the object's fields.
+- Has the same name as the class in some languages.
+- Does not return a value.
+- Can be overloaded in some languages to allow multiple ways of initializing an object.
+
+### ✅ Summary
+
+Constructors are essential for setting up an object properly from the moment it is instantiated. If no constructor is explicitly defined, many languages provide a default constructor automatically.
+
