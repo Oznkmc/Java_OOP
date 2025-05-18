@@ -79,4 +79,23 @@ This dynamic method dispatch supports writing more maintainable and scalable cod
 > - Enhances code flexibility, maintainability, and scalability  
 > - Promotes loose coupling and easier code extension
 
+## 💳 Payment Method Interface Example
+
+This example shows how to use an **interface** to define a common contract for different payment methods.
+
+### Interface: `PaymentMethod`
+- Declares two methods: `pay(double amount)` and `refund(double amount)`
+- Specifies *what* operations a payment method must support, but not *how*
+
+### Implementations:
+- **CreditCardPayment**: Implements payment and refund via credit card
+- **PayPalPayment**: Implements payment and refund via PayPal account
+
+### Why use interfaces here?
+- **Abstraction:** Hide implementation details behind a common interface  
+- **Flexibility:** Easily add new payment methods without changing existing code  
+- **Polymorphism:** Treat different payment types uniformly through the same interface
+
+This design promotes clean, scalable, and maintainable code.
+
 
