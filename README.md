@@ -35,3 +35,34 @@ Constructors ensure that an object starts its life in a valid and predictable st
 
 Constructors are essential for setting up an object properly from the moment it is instantiated. If no constructor is explicitly defined, many languages provide a default constructor automatically.
 
+## 🧬 Inheritance (Kalıtım)
+
+Inheritance is a fundamental concept in object-oriented programming (OOP) that allows one class (child/subclass) to inherit properties and behaviors from another class (parent/superclass). This promotes **code reuse**, **modularity**, and a **hierarchical class structure**.
+
+In this example, a general `Product` class is defined with common attributes like `id`, `name`, `price`, and `brand`. Two subclasses, `Electronics` and `Clothing`, inherit from `Product` and add their own specific properties.
+
+### 👨‍👩‍👧 Class Structure Overview
+
+- **`Product`**: Base class containing shared product attributes and a `getDetails()` method to display them.
+- **`Electronics`**: Inherits from `Product` and adds `warrantyPeriod` and `powerUsage`.
+- **`Clothing`**: Inherits from `Product` and adds `size`, `fabricType`, and `gender`.
+
+### 🔁 Method Overriding
+
+Both subclasses override the `getDetails()` method to:
+1. Reuse the base method (`super.getDetails()`).
+2. Extend the output with their own specific attributes.
+
+### ⚙️ Constructor Chaining with `super()`
+
+Each subclass constructor calls the `Product` constructor using the `super(...)` keyword to ensure base class attributes are initialized properly, then assigns its own fields.
+
+### 🧪 Execution Flow
+
+In the `main` method:
+- An `Electronics` object is created.
+- Its `getDetails()` method is called, which:
+  - Calls the base `getDetails()` to print general product info.
+  - Then prints electronics-specific info.
+
+This demonstrates how subclass objects can contain both **inherited** and **specialized** behaviors.
