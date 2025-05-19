@@ -98,4 +98,22 @@ This example shows how to use an **interface** to define a common contract for d
 
 This design promotes clean, scalable, and maintainable code.
 
+## 📄 Abstract Classes
+
+Abstract classes are used to define a common base for other classes. They can include both fully implemented methods and abstract methods (without a body).
+
+### Key Points:
+- Declared with the `abstract` keyword
+- Cannot be instantiated directly
+- May contain abstract methods that must be implemented by subclasses
+- Can contain concrete (fully defined) methods
+
+Abstract classes provide a **template** for other classes, enforcing certain methods to be defined while allowing shared functionality.
+
+### Why use abstract classes?
+- To define a common structure for related classes
+- To enforce implementation of specific behavior in subclasses
+- To reuse code across multiple related classes
+
+This encourages **code consistency** and **reusability** in object-oriented design.
 
