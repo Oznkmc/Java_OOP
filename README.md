@@ -117,3 +117,37 @@ Abstract classes provide a **template** for other classes, enforcing certain met
 
 This encourages **code consistency** and **reusability** in object-oriented design.
 
+## 🔐 Encapsulation – Protecting the Core of Your Objects
+
+Encapsulation is one of the core pillars of Object-Oriented Programming (OOP). It is the practice of **hiding internal data** and only allowing access through **controlled interfaces** like getters and setters.
+
+### 🎯 Purpose of Encapsulation
+- ✅ Prevent unauthorized access to data
+- ✅ Maintain internal consistency
+- ✅ Improve modularity and code safety
+- ✅ Enforce rules when reading/writing data
+
+---
+
+### 🧱 How It Works
+
+| Element          | Description                                     |
+|------------------|-------------------------------------------------|
+| `private fields` | Variables that store data inside the class      |
+| `get` methods     | Allow controlled *read* access to private data |
+| `set` methods     | Allow controlled *write* access to private data|
+
+---
+
+### 💡 Think of it like a Capsule 💊
+> The class protects its internal data just like a medicine capsule —  
+> You can't directly change what's inside, but you can interact with it safely through specific openings (methods).
+
+---
+
+### ✅ Benefits
+- Hides complexity
+- Makes the code easier to test and debug
+- Encourages clean API design
+
+---
